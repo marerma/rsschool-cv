@@ -6,10 +6,10 @@
 
 **E-mail:** maria.kadantseva@gmail.com
 
-**Discord:** 
+**Discord:** marerma#8824
 
 ## Personal profile 
-I am looking for a new professional skills and interested in a new exciting job in the IT sphere. Being on search, I have just started to get oriented in programming languages as well as technological and professional tracks. I have a big experience in international cooperation projects and intercultural communication which would surely be my advantage. At the beginning of my professional experience, I worked at small companies and I had been dealing with websites and internet marketing tools as project manager. 
+I am looking for a new professional skills and interested in a new exciting job in the IT sphere. Being on search, I have just started to get oriented in programming languages as well as technological and professional tracks. At the beginning of my professional way, I worked at small companies and I had been dealing with websites and internet marketing tools as project manager. I also have a big experience in international cooperation projects and intercultural communication which would surely be my advantage.
 
 ## Work experience 
 |   |      |
