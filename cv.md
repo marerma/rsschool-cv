@@ -12,11 +12,11 @@
 I am looking for a new professional skills and interested in a new exciting job in the IT sphere. Being on search, I have just started to get oriented in programming languages as well as technological and professional tracks. At the beginning of my professional way, I worked at small companies and I had been dealing with websites and internet marketing tools as project manager. I also have a big experience in international cooperation projects and intercultural communication which would surely be my advantage.
 
 ## Work experience 
-|   |      |
-|---------|-----------|
-|**2014 - 2022**| Scientific Manager in German-Russian Research Cooperation Projects|
-|**2010 - 2014**| Web Content Manager |
-|**2009**| Sales Manager of web products (websites, SEO marketing tools etc.)|
+**2014 - 2022** Scientific Manager in German-Russian Research Cooperation Projects
+
+**2010 - 2014** Web Content Manager 
+
+**2009** Sales Manager of web products (websites, SEO marketing tools etc.)
 
 ## Education
 RS School JS/FE Pre-School (in progress)
