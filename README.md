@@ -1,1 +1,1 @@
-# rsschool-cv
+https://marerma.github.io/rsschool-cv/cv
