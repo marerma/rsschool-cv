@@ -1,0 +1,13 @@
+body {
+font-family: 'Abril Fatface', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-size: 14px;
+color: #2d2f33ea
+}
+
+.section-title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #2d2f33ea
+}
