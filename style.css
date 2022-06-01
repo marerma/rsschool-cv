@@ -1,13 +1,64 @@
 body {
-font-family: 'Abril Fatface', cursive;
-font-family: 'Noto Sans', sans-serif;
-font-size: 14px;
-color: #2d2f33ea
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: #505358ea;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #2d2f33ea;
+  letter-spacing: 3px;
+}
+
+p {
+text-align: justify;
+line-height: 1.5;
 }
 
 .section-title {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   text-transform: uppercase;
-  color: #2d2f33ea
+  color: #0d1c38ea;
+}
+
+.nav-list {
+  font-family: 'Noto Sans', sans-serif;
+  list-style-type: none;
+  font-size: 14px;
+  color: #505358ea;
+}
+
+.section-list {
+  font-family: 'Noto Sans', sans-serif;
+  list-style-type: none;
+  font-size: 16px;
+  color: #505358ea;
+}
+
+.item::before {
+  content: "•";
+  font-size: 16px;
+  color: #64242dea;
+  padding: 10px;
+}
+
+.item span {
+  font-style: italic;
+}
+
+.footer {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  color: #79797aea;
 }
