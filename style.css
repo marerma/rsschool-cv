@@ -19,24 +19,23 @@ body {
   margin: 0 auto;
 }
 
-/*.header {
-  background-color: #57757D;
+.column-left {
+  width: 60%;
   position: relative;
-  width:500px;
-  height: 800px;
-}*/
-
+  margin: 5px;
+}
 h1 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 32px;
+  font-size: 42px;
   text-transform: uppercase;
-  color: #2d2f33ea;
+  color: #0e1f2bea;
   letter-spacing: 3px;
 } 
 
 p {
 text-align: justify;
 line-height: 1.5;
+font-size: 16px;
 }
 
 .section-title {
@@ -52,32 +51,70 @@ line-height: 1.5;
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-.nav-list li {
-  float: left;
-  border-right:1px solid #ffffff;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 3px solid #364a50;
 }
 
 .nav-list a {
   display: block;
   font-size: 0.8em;
-  color: white;
+  color: #57757D;;
   text-align: center;
   padding: 1em;
   text-decoration: none;
-  background-color: #57757D;
+  background-color: white;
 }
 
 .nav-list a:hover{
   background-color:#364a50;
+  color: white;
 }
+
+.img {
+  position: relative;
+  float: right;
+  margin: auto;
+  top: 10px;
+  right: 40px;
+}
+
+/*.img-wrapper {
+  background-color: #364a50;
+  width: 30%;
+  float: right;
+  height: 346px;
+}*/
 
 .section-list {
   font-family: 'Noto Sans', sans-serif;
   list-style-type: none;
   font-size: 16px;
   color: #505358ea;
+  padding: 0;
+}
+
+.mail {
+  background-image: url(./assets/images/mail_icon.png);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.column-left {
+  width: 80%;
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	background: #505358ea;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  margin-right: 0px; 
 }
 
 .item::before {
@@ -92,9 +129,14 @@ line-height: 1.5;
 }
 
 .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #79797aea;
+  border-top: 5px solid #364a50;
 }
 
 .footer a {
