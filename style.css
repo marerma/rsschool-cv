@@ -34,7 +34,7 @@ h1,h2{font-size:inherit;font-weight: 400;}
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .content {
@@ -42,7 +42,7 @@ body {
 }
 
 main, .allwrapper {
-  background-color: #d3d2d2;
+  background-color: white;
 }
 
 h1 {
@@ -51,9 +51,20 @@ h1 {
   text-transform: uppercase;
   color: #0e1f2bea;
   letter-spacing: 3px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   line-height: 1.5em;
 } 
+
+#circle {
+  width: 150px;
+  height: 150px;
+  background: #b5b7b9ea;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  margin-right: 0px;
+  padding-left: 40px;
+}
 
 .item__title {
   font-family: 'Noto Sans', sans-serif;
@@ -95,7 +106,18 @@ h1 {
   top: 0px;
   left: 0px;
   height: 450px;
-  border-bottom: 20px solid #364a50;
+
+}
+
+.line {
+  width:80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center; 
+  background: #364a50;
+  border-radius:2px;
+  height: 2px;
 }
 
 #back {
@@ -114,20 +136,28 @@ top: -370px;
 left: 85px;
 }
 
-#contacts {
+#contactsgroup {
   position: relative;
   top: -700px;
   left: 400px;
-  max-width: 60%;
+  max-width: 30%;
+  line-height: 1.5em;
+}
+
+#lang {
+  position: relative;
+  top: -930px;
+  left: 900px;
+  max-width: 30%;
   line-height: 1.5em;
 }
 
 .contact-list {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
 }
 
 .contact-list li {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
   color: #f88949ea;
 }
 
@@ -173,10 +203,6 @@ left: 85px;
   padding: 0 0 0 25px;
 }
 
-.professional {
-  border-bottom: 20px solid #364a50;
-}
-
 .professional__container {
   max-width: 95%;
   margin: 0 auto;
@@ -193,7 +219,7 @@ left: 85px;
   line-height: 1.5em;
   text-align: justify;
   margin-top: 10px;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .item__text {
@@ -250,6 +276,24 @@ pre {
   margin: 0 auto;
 }
 
+#linkcv {
+ color: #f88949ea;
+ display: inline-block;
+}
+
+#linkcv:hover {
+  color: #2e3136ea;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.img-project {
+display: block;
+margin-top: 20px;
+margin-bottom: 10px;
+border: 1px solid #f88949ea;
+}
+
 .footer {
   background-color:#f88949ea;
 }
@@ -262,7 +306,7 @@ pre {
 .footer__wrapp {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -270,4 +314,8 @@ pre {
   flex: 0 0 33.33%;
   text-align: center;
   padding-top: 20px;
+}
+
+.footer__item span {
+  font-weight: bold;
 }
