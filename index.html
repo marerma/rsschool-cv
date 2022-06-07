@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV Ermolaeva</title>
+</head>
+<body>
+  <div class="allwrapper">
+    <div class="content">
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__navigation">
+          <ul class="header__navigation list">
+            <li><a href="#about">About me</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#lang">Languages</a></li>
+              <li><a href="#code">Code</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>  
+    <main class="main">
+        <div class="personal">
+          <div class="personal__container">
+            <div class="personal__columns">
+              <div class="personal__item" id="back"> 
+              </div>
+              <div class="personal__item">
+              <div class="item__img"><img class="img" src="./assets/my_photo.jpg" alt="my pic">
+              </div>
+              </div>
+              <div class="personal__item" id="contactsgroup">
+                <h1 id="circle">Maria <br/> Ermolaeva</h1>
+                <h2 class="item__title" id="contacts">Contacts</h2>
+                <div class="item__text">
+                  <ul class="contact-list">
+                    <li>Email:<span> </span><a href="mailto:maria.kadantseva@gmail.com">maria.kadantseva@gmail.com</a></li>
+                    <li>Discord: marerma#8824</li>
+                    <li>Github: <a href="https://github.com/marerma">marerma</a></li>
+                    <li>City: Moscow, Russia</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="personal__item" id="lang">
+                <h2 class="item__title">Languages</h2>
+                <div class="item__text">
+                  <ul class="flag">
+                    <li>German (fluent)</li> 
+                    <li>English (advanced)</li>
+                   </ul> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="professional">
+          <div class="professional__container">
+            <div class="professional__columns">
+              <div class="professional__item" id="about">
+                <h2 class="item__title">About</h2>
+                <div class="item__text">
+                  <p>I am looking for new professional skills and interested in a new exciting job in the IT sphere. 
+                    At the beginning of my professional way, I worked at small companies and I had been dealing with websites and internet marketing tools as project manager. 
+                    I also have a big experience in international cooperation projects and intercultural communication which would surely be my advantage.
+                  </p>
+                </div>
+              </div>
+              <div class="professional__item" id="education">
+                <h2 class="item__title">Education</h2>
+                <div class="item__text">
+                  <ul class="list__edu">
+                    <li>RS School JS/FE Pre-School <span>(in progress)</span></li>
+                    <li>Python for beginners at Stepik.org <span>(in progress)</span></li>
+                    <li>M.A. in Political Sociology, Moscow School of Social and Economic Sciences</li>
+                    <li>International Relations, Tyumen State University</li>
+                    <li>Several trainings and workshops on soft skills <span>(conflict mediation, networking etc.)</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="professional__item" id="experience">
+                <h2 class="item__title">Experience</h2>
+                <div class="item__text">
+                  <ul class="list_exp">
+                    <li><span>Scientific Manager </span>in German-Russian Research Cooperation Projects</li>
+                    <li><span>Content Manager </span>at a German consortium</li>
+                    <li><span>Sales Manager of web products </span>(websites, SEO marketing tools etc.)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="professional__item" id="skills">
+                <h2 class="item__title">Skills</h2>
+                <div class="item__text">
+                  <ul>
+                    <li><span>HTML </span> (basics)</li>
+                    <li><span>CSS </span>(basics)</li>
+                    <li><span>Python </span> (basics)</li>
+                    <li><span>GIT </span> (basics)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="professional__item" id="projects">
+              <h2 class="item__title">Projects</h2>
+              <div class="item__text">
+                <p>The projects will be published soon...</p>
+                <a href="https://marerma.github.io/rsschool-cv/" id="linkcv" target="_blank"> My first layout </a>
+                <img class="img-project" src="./assets/cvproject.png" alt="cvproject">
+              </div>
+              </div>
+              <div class="professional__item" id="code">
+              <h2 class="item__title">Code example</h2>
+              <div class="item__text">
+          <pre>
+n = int(input())
+    a = 1
+    for i in range(1, n + 1):
+        for _ in range(i):
+        print(a, end=' ')
+        a += 1
+    print()
+                </pre>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    </div>
+    </div>
+    <footer class="footer">
+          <div class="footer__container">
+            <div class="footer__wrapp">
+              <div class="footer__item"><span>2022</span>
+              </div>
+              <div class="footer__item">made by <a href="https://github.com/marerma" target="_blank">marerma</a>
+              </div>
+              <div class="footer__item"><a target="_blank" href="https://rs.school/js/"></a><img src="./assets/rs_school_js.svg" width="121" height="50" alt="logo rsschool">
+              </div>
+            </div>
+          </div>
+    </footer>
+</body>
+</html>
